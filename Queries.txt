@@ -1,0 +1,7 @@
+INSERT INTO employee(name, age, designation, salary) VALUES (?, ?, ?, ?);
+
+SELECT * FROM employee;
+
+SELECT salary FROM employee WHERE name=?;
+
+UPDATE employee SET salary=? WHERE name=?
